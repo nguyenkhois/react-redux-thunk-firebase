@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { dbActions } from './actions/firebase-action';
+import { dbActions } from '../actions/firebase-action';
 
 const mapDispatchToProps = {
     fetchData: dbActions.fetchData,

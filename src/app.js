@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FetchData from './fetchdata';
+import FetchData from './components/fetchdata';
 
 export default class App extends Component {
     render(){
